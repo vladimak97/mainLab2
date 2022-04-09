@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class PrivateApp {
+public class PrivateController {
 
     @RequestMapping("/")
     public String index() {
