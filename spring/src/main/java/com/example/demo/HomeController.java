@@ -15,7 +15,7 @@ public class HomeController {
     
     @RequestMapping("/example")
     public String users() {
-        return "template";
+        return "index";
     }
 }
 }
